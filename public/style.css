@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(204, 175, 121);
+  padding: 20px 0 40px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 5px;
+  font-family: "Koulen", cursive;
+  font-weight: 500;
+  color: tomato;
+}
+
+h3 {
+  font-size: 30px;
+  text-decoration: none;
+  font-family: "Koulen";
+  font-weight: lighter;
+}
+
+h4 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#player-one {
+  float: left;
+  width: 100px;
+}
+
+#player-two {
+  float: right;
+  width: 100px;
+}
+
+#coin-flipper {
+  margin: 60px auto;
+  height: 500px;
+  max-width: 500px;
+}
+
+#instructions {
+  background: rgb(233, 230, 230);
+  margin: 30px 50px;
+  padding: 50px;
+}
+
+#result {
+  text-transform: uppercase;
+}
+
+button {
+  outline: none;
+  border: none;
+  width: 200px;
+  line-height: 30px;
+  background: orange;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  margin: 10px;
+}
+
+button:hover {
+  background: seagreen;
+}
+
+ol li {
+  margin-top: 10px;
+  list-style: decimal;
+  list-style-position: inside;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+  font-size: 2em;
+  margin: 30px;
+  font-family: "Edu SA Beginner", cursive;
+  font-weight: bold;
+}
